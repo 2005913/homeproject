@@ -1,0 +1,11 @@
+{% extends 'blog/base_side.html' %}
+
+{% block content_side %}
+<div class="post">
+    <form action="" method="post">
+    {% csrf_token %}
+    <div class="alert alert-danger">Do you want to delete "{{ post.title }}" ?</div>
+    <input type="submit" value="Delete" class="btn btn-danger">
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+body{
+    background: white url("images/background.png") no-repeat;
+    background-position: bottom;
+}
+
+li p a{
+    color: #996600;
+    font-weight:bold;
+    background:#ffffff;
+    padding: 2px 5px;
+    border-radius:5px;
+
+p a{
+    color: #996600;
+    font-weight:bold;
+    background:#ffffff;
+    padding: 2px 5px;
+    border-radius:5px;
+}
+
+h1{
+font-weight:bold;
+    background:#ffffff;
+    padding: 2px 5px;
+    border-radius:5px;
+}
